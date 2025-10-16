@@ -1,7 +1,7 @@
 # Multi-Scale High-Resolution Logarithmic Grapher Module for Efficient Vision GNNs (LOG 2024)
 Mustafa Munir, Alex Zhang, and Radu Marculescu
 
-[PDF](https://openreview.net/pdf/fec03b23750738481c96ecb8a446da0590b1d727.pdf)
+[PDF](https://openreview.net/pdf/fec03b23750738481c96ecb8a446da0590b1d727.pdf) | [Arxiv](https://arxiv.org/abs/2510.13740)
 
 # Overview
 This repository contains the source code for Multi-Scale High-Resolution Logarithmic Grapher Module for Efficient Vision GNNs
