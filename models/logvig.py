@@ -475,21 +475,21 @@ class LogViG(torch.nn.Module):
         return x
 
 
-@register_model
-def Ti_LogViG(pretrained=False, **kwargs):
-    model = LogViG(blocks=[[3,3], [3,3], [9,3], [3,3]],
-                      channels=[32, 64, 128, 256],
-                      kernels=3,
-                      stride=1,
-                      act_func='gelu',
-                      dropout=0.,
-                      drop_path=0.1,
-                      emb_dims=512,
-                      K=[2, 2, 2, 2],
-                      distillation=True,
-                      num_classes=1000)
-    model.default_cfg = default_cfgs['logvig']
-    return model
+# @register_model
+# def Ti_LogViG(pretrained=False, **kwargs):
+#     model = LogViG(blocks=[[3,3], [3,3], [9,3], [3,3]],
+#                       channels=[32, 64, 128, 256],
+#                       kernels=3,
+#                       stride=1,
+#                       act_func='gelu',
+#                       dropout=0.,
+#                       drop_path=0.1,
+#                       emb_dims=512,
+#                       K=[2, 2, 2, 2],
+#                       distillation=True,
+#                       num_classes=1000)
+#     model.default_cfg = default_cfgs['logvig']
+#     return model
     
 @register_model
 def Ti_LogViG_3(pretrained=False, **kwargs):
